@@ -1,5 +1,6 @@
+package com.zyc.springbootfreemarker.config;
+
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -12,7 +13,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @Date: Created in 9:59 2018/1/18
  * @Modified:
  */
-@EnableAutoConfiguration
+@SpringBootApplication
 @Controller
 public class SpringBootApplicationStart {
     public static void main(String[] args) {
